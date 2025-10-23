@@ -1,4 +1,3 @@
-# Markdown
 # Model Card: QLoRA Fine-tuned ChatGLM3-6B Adapter for Primary School Biology QA
 
 # Model Description
@@ -30,7 +29,7 @@ Install the necessary Python libraries:
 ```bash
 pip install torch transformers peft bitsandbytes accelerate
 
-# Python
+
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from peft import PeftModel, PeftConfig
 import torch
